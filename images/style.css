@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+:root{
+    /*colors*/
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    /*fonts*/
+    --Font-size: 15px;
+    --Font-family:'Outfit';
+    --Font-weight-regural:400;
+    --Font-weight-bold:700;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Light-gray);
+    display: grid;
+    place-items: center;
+    position: relative;
+    
+}
+#card{
+    height: 450px;
+    width: 280px;
+    background-color: var(--White);
+    border-radius: 20px;
+    display: block;
+    
+}
+img{
+    border-radius: 12px;
+    margin: 5%;
+}
+h3{
+    color: var(--Dark-blue);
+    font-family: var(--Font-family);
+    font-weight: var(--Font-weight-bold);
+    width: 230px;
+    text-align: center;
+    margin-left: 25px;
+}
+p{
+    color: var(--Grayish-blue);
+    font-family: var(--Font-family);
+    font-weight: var(--Font-weight-regural);
+    font-size: var(--Font-size);
+    width: 250px;
+    text-align: center;
+    margin-left: 15px ;
+    margin-top: 20px;
+}
